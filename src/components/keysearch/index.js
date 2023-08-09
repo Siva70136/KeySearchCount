@@ -26,7 +26,7 @@ class KeyWord extends Component {
 
             const youtubeCount = youtubeData.pageInfo.totalResults;
 
-            //setYoutubeSearchVolume(youtubeCount);
+          
             this.setState({
                 isLoading: false,
                 youtubeSearchVolume: youtubeCount
