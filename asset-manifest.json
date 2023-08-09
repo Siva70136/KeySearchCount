@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/keysearccount/static/css/main.0eb8e808.css",
+    "main.js": "/keysearccount/static/js/main.94707132.js",
+    "static/js/787.6a541219.chunk.js": "/keysearccount/static/js/787.6a541219.chunk.js",
+    "index.html": "/keysearccount/index.html",
+    "main.0eb8e808.css.map": "/keysearccount/static/css/main.0eb8e808.css.map",
+    "main.94707132.js.map": "/keysearccount/static/js/main.94707132.js.map",
+    "787.6a541219.chunk.js.map": "/keysearccount/static/js/787.6a541219.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0eb8e808.css",
+    "static/js/main.94707132.js"
+  ]
+}
