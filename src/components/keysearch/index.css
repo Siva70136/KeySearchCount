@@ -54,9 +54,13 @@
 .head{
   text-align: center;
 }
+.want{
+  text-align: center;
+  color: black;
+}
 
 .count{
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 700;
     color:  #783937;
 }

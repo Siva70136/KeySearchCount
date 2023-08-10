@@ -18,6 +18,8 @@ class KeyWord extends Component {
     handleSearch = async () => {
         try {
             const { keyword } = this.state
+            if(keyword!=""){
+            
             this.setState({ isLoading: true });
             const youtubeResponse = await fetch(
                 `https://www.googleapis.com/youtube/v3/search?q=${encodeURIComponent(keyword)}&key=${API_KEY}`
@@ -31,6 +33,7 @@ class KeyWord extends Component {
                 isLoading: false,
                 youtubeSearchVolume: youtubeCount
             })
+        }
         }
         catch (e) {
             this.setState({
@@ -50,6 +53,7 @@ class KeyWord extends Component {
                     
                     <div className='data-container2'>
                     <h1 className='head'><span className='head1'>Enter keyword to</span> search the volume</h1>
+                    <p className='want'>Find out how many times a particular keyword <br />has been searched on Youtube</p>
                         <div className='search-container'>
                             <input
                                 type="text"
